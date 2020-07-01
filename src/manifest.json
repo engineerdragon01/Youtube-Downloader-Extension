@@ -1,22 +1,22 @@
 {
-  "name": "Youtube Downloader",
-  "version": "1.0",
-  "manifest_version": 2,
+    "name": "Youtube Downloader",
+    "version": "1.0",
+    "manifest_version": 2,
 
-  "description": "Helps download Youtube videos",
-  "page_action": {
-    "default_title": "Download From Youtube",
-    "default_popup": "popup.html"
-  },
+    "description": "Helps download Youtube videos",
+    "page_action": {
+      "default_title": "Download From Youtube",
+      "default_popup": "popup.html"
+    },
 
-  "permissions": [
-    "downloads",
-    "activeTab",
-    "declarativeContent"
-  ],
+    "permissions": [
+      "downloads",
+      "activeTab",
+      "declarativeContent"
+    ],
 
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
 }
