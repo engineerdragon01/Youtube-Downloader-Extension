@@ -28,8 +28,8 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.runtime.onMessage.addListener(function(message) {
   let url = 'http://localhost:4000/download?';
-  let queryString = Object.keys(message).map(key =>
-  key + '=' + message[key]).join('&');
+  let queryString = Object.keys(message).map(key => key
+    + '=' + message[key]).join('&');
   url += queryString;
   console.log(url);
   chrome.downloads.download({url: url,

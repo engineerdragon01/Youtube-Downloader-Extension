@@ -3,17 +3,17 @@ Used chrome.tabs API to fetch current video url
 Send info (input from user) in form of json message
 */
 window.onload = function() {
-  let quality = document.getElementById('quality');
-  let filename = document.getElementById('filename');
-  let format = document.getElementById('format');
-  let dButton = document.getElementById('download');
+  var quality = document.getElementById('quality');
+  var filename = document.getElementById('filename');
+  var format = document.getElementById('format');
+  var dButton = document.getElementById('download');
 
   dButton.onclick = function() {
     console.log("Button Clicked");
     chrome.tabs.query({'active': true, 'lastFocusedWindow': true},
   function(tabs) {
-    let url = tabs[0].url;
-    let message = {
+    var url = tabs[0].url;
+    var message = {
       'url': url,
       'quality': quality.value,
       'filename': filename.value,
