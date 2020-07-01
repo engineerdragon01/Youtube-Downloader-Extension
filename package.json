@@ -1,0 +1,23 @@
+{
+  "name": "youtube-downloader-extension",
+  "version": "1.0.0",
+  "description": "Downloader for Youtube Videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engineerdragon01/Youtube-Downloader-Extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engineerdragon01/Youtube-Downloader-Extension/issues"
+  },
+  "homepage": "https://github.com/engineerdragon01/Youtube-Downloader-Extension#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^2.1.7"
+  }
+}
