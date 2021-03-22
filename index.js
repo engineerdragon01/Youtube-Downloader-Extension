@@ -17,4 +17,4 @@ app.get('/download', function(req, res) {
     quality: quality,
   });
   video.pipe(res);
-})
+});
