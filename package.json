@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/engineerdragon01/Youtube-Downloader-Extension#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ytdl-core": "^2.1.7"
   }
 }
